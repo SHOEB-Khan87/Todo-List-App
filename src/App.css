@@ -1,33 +1,48 @@
-.list {
-    background-color: #2196f3;
+.list{
+
     text-align: center;
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
-    border-radius: 20px;
-
+    border-radius: 10px;
+  
 }
 
-.text {
-    color: white;
+.box{
+    box-shadow: 5px 5px 13px 5px black;
+background-color: white;
+}
+
+.text{
+    text-align: center;
+}
+.check{
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
     align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
 }
 
-body {
-    /* background-image: url(./Assets/gotit.png); */
-    background-color: black;
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.del{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
 
 .TextField {
     background-color: white;
-    border-radius: 20px;
+   color:black;
+   
+   display: flex;
+  
 }
 
-.remove {
-    margin-top: 10px;
 
+.remove {
+    margin-top: 20px;
+   
 }

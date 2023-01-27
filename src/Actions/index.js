@@ -3,7 +3,8 @@ export const Add_item = (data) => {
         type: "Add_item",
         payload: {
             id: new Date().getTime().toString(),
-            data: data
+            data: data,
+            done:false
         }
     }
 
@@ -21,4 +22,11 @@ export const Remove_item = () => {
 
     }
 }
+export const check = (data) => { 
+    return {
+        type:"check",
+        payload:data
+    }
+}
+
 
